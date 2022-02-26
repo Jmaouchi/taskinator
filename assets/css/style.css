@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color:rgb(7, 116, 143);
+  --secondary-color:rgb(9, 252, 232);
+  
+}
+
+header {
+  background-color: var(--main-color);
+  padding: 20px;
+  border-bottom: 4px solid var(--secondary-color);
+}
+
+
+header .page-title{
+  color: var(--secondary-color);
+  font-size: 35px;
+}
+
+p{
+  font-size: 20px;
+  margin-top: 15px;
+  color: white; 
+}
+
+.btn{
+  padding: 15px;
+  width: 100px;
+  background-color:var(--secondary-color);
+  margin-top: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+/* section start */
+
+.page-content{
+  background-color: rgb(236, 225, 225);
+  min-height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-list-wrapper {
+  width: 90%;
+  min-height: 50vh;
+}
+
+.list-title{
+  color: var(--main-color);
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.task-list{
+  background-color: gray;
+  min-height:45vh;
+  border: 2px solid black;
+  padding: 10px;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.task-list .task-item{
+ background-color: aqua; 
+ padding: 12px;
+ font-size: 20px;
+ border-radius: 15px;
+}
+/* section ends */
+
+
+/* footer start */
+footer{
+  background-color: var(--main-color);
+  min-height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
