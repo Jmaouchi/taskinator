@@ -6,6 +6,15 @@ var taskFormHandler = function(event) {
   var taskNameInput = document.querySelector("input[name='task-name']").value;
   var taskTypeInput = document.querySelector("select[name='task-type']").value;
 
+  // check if input values are empty strings
+  if (!taskNameInput || !taskTypeInput) {
+  alert("You need to fill out the task form!");
+ 
+  return false;
+  }
+  formEl.reset(); // this will make the textContent on the input form disappear 
+  //The browser-provided DOM element interface has the reset() method, which is designed specifically for the <form> element and won't work on any other element.
+
   // package up data as an object
   var taskDataObj = {
       name: taskNameInput,
