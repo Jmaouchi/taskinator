@@ -10,7 +10,16 @@
 
 # looks liks: 
 ## Face one
+
 ![](assets/images/imgOne.png)
+
+## face two
+
+![](assets/images/imgTwo.png)
+
+## face three
+
+![](assets/images/imgThree.png)
 
 ## Built With
 * HTML
