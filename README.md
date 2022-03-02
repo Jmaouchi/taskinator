@@ -10,7 +10,7 @@
 
 # looks liks: 
 ## Face one
-![](assets/images/img0ne.png)
+![](assets/images/imgOne.png)
 
 ## Built With
 * HTML
